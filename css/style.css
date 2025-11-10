@@ -1454,6 +1454,10 @@ strong {
     min-width: inherit;
     padding-bottom: 30px;
   }
+  
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
 
   .carousel-control-next-icon, 
   .carousel-control-prev-icon {
