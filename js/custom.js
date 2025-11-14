@@ -1,14 +1,18 @@
+// ==========================
+// custom.js — Sponsor Angels
+// ==========================
+// Autor: Elarssen Code Solutions
+// Versão: 1.0
+// --------------------------  
 
   (function ($) {
   
   "use strict";
 
-    // COUNTER NUMBERS
     jQuery('.counter-thumb').appear(function() {
       jQuery('.counter-number').countTo();
     });
     
-    // CUSTOM LINK
     $('.smoothscroll').click(function(){
     var el = $(this).attr('href');
     var elWrapped = $(el);

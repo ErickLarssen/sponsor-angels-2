@@ -1,8 +1,13 @@
-
+// ==========================
+// jquery.sticky.js — Sponsor Angels
+// ==========================
+// Autor: Elarssen Code Solutions
+// Versão: 1.0
+// --------------------------
 
 (function($) {
-    var slice = Array.prototype.slice; // save ref to original slice()
-    var splice = Array.prototype.splice; // save ref to original slice()
+    var slice = Array.prototype.slice;
+    var splice = Array.prototype.splice;
 
   var defaults = {
       topSpacing: 0,
@@ -11,7 +16,7 @@
       wrapperClassName: 'sticky-wrapper',
       center: false,
       getWidthFrom: '',
-      widthFromWrapper: true, // works only when .getWidthFrom is empty
+      widthFromWrapper: true,
       responsiveWidth: false
     },
     $window = $(window),
@@ -29,7 +34,6 @@
           elementTop = s.stickyWrapper.offset().top,
           etse = elementTop - s.topSpacing - extra;
 
-	//update height in case of dynamic content
 	s.stickyWrapper.css('height', s.stickyElement.outerHeight());
 
         if (scrollTop <= etse) {
@@ -73,15 +77,12 @@
             if (s.currentTop === null) {
               s.stickyElement.trigger('sticky-start', [s]);
             } else {
-              // sticky is started but it have to be repositioned
               s.stickyElement.trigger('sticky-update', [s]);
             }
 
             if (s.currentTop === s.topSpacing && s.currentTop > newTop || s.currentTop === null && newTop < s.topSpacing) {
-              // just reached bottom || just started to stick but bottom is already reached
               s.stickyElement.trigger('sticky-bottom-reached', [s]);
             } else if(s.currentTop !== null && newTop === s.topSpacing && s.currentTop < newTop) {
-              // sticky is started && sticked at topSpacing && overflowing from top just finished
               s.stickyElement.trigger('sticky-bottom-unreached', [s]);
             }
 
@@ -171,7 +172,6 @@
       }
     };
 
-  // should be more efficient than using $window.scroll(scroller) and $window.resize(resizer):
   if (window.addEventListener) {
     window.addEventListener('scroll', scroller, false);
     window.addEventListener('resize', resizer, false);

@@ -1,3 +1,13 @@
+/*---------------------------------------
+      STYLE.CSS — SPONSOR ANGELS            
+-----------------------------------------*/
+/*---------------------------------------
+      AUTOR: ELARSSEN CODE SOLUTIONS            
+-----------------------------------------*/
+/*---------------------------------------
+      VERSÃO: 1.0            
+-----------------------------------------*/
+
 @font-face {
     font-family: 'Metropolis';
     src: url('../fonts/Metropolis/Metropolis-Regular.woff2') format('woff2'),
@@ -35,7 +45,7 @@
 }
 
 /*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
+  PROPRIEDADES PERSONALIZADAS (VARIÁVEIS)            
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
@@ -78,7 +88,7 @@ body {
 
 
 /*---------------------------------------
-  TYPOGRAPHY               
+  TIPOGRAFIA              
 -----------------------------------------*/
 
 h2,
@@ -188,7 +198,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BLOCK               
+  BLOCO PERSONALIZADO               
 -----------------------------------------*/
 .custom-block-wrap {
   background: var(--white-color);
@@ -220,7 +230,7 @@ strong {
 
 
 /*---------------------------------------
-  PROGRESS BAR               
+  BARRA DE PROGRESSO               
 -----------------------------------------*/
 .progress {
   background: var(--border-color);
@@ -233,7 +243,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM ICON COLOR               
+  COR DO ÍCONE PERSONALIZADO               
 -----------------------------------------*/
 .custom-icon {
   color: var(--secondary-color);
@@ -241,7 +251,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM LIST               
+  LISTA PERSONALIZADA               
 -----------------------------------------*/
 .custom-list {
   margin-bottom: 0;
@@ -256,7 +266,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM TEXT BOX               
+  CAIXA DE TEXTO PERSONALIZADA               
 -----------------------------------------*/
 .custom-text-box {
   background: var(--white-color);
@@ -287,7 +297,7 @@ strong {
 
 
 /*---------------------------------------
-  AVATAR IMAGE - TESTIMONIAL, AUTHOR               
+  IMAGEM DO AVATAR - DEPOIMENTO, AUTOR               
 -----------------------------------------*/
 .avatar-image {
   border-radius: var(--border-radius-large);
@@ -298,7 +308,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BUTTON               
+  BOTÃO PERSONALIZADO             
 -----------------------------------------*/
 .custom-btn {
   background: var(--secondary-color);
@@ -586,7 +596,7 @@ strong {
 
 
 /*---------------------------------------
-  FEATURE BLOCK              
+  BLOCO DE RECURSOS              
 -----------------------------------------*/
 .featured-block {
   text-align: center;
@@ -624,7 +634,7 @@ strong {
 
 
 /*---------------------------------------
-  ABOUT              
+  SOBRE              
 -----------------------------------------*/
 .about-section {
   background-repeat: no-repeat;
@@ -646,7 +656,7 @@ strong {
 
 
 /*---------------------------------------
-  COUNTER NUMBERS              
+  NÚMEROS DE CONTADOR              
 -----------------------------------------*/
 .counter-thumb {
   margin: 20px;
@@ -669,7 +679,7 @@ strong {
 
 
 /*---------------------------------------
-  VOLUNTEER              
+  VOLUNTÁRIO            
 -----------------------------------------*/
 .volunteer-section {
   background: var(--secondary-color);
@@ -714,7 +724,7 @@ strong {
 
 
 /*---------------------------------------
-  DONATE              
+  DOAR              
 -----------------------------------------*/
 .donate-section {
   background-image: url('../images/different-people-doing-volunteer-work.jpg');
@@ -766,7 +776,7 @@ strong {
 
 
 /*---------------------------------------
-  TESTIMONIAL CAROUSEL              
+  CARROSSEL DE DEPOIMENTOS             
 -----------------------------------------*/
 .testimonial-section {
   position: relative;
@@ -892,7 +902,7 @@ strong {
 
 
 /*---------------------------------------
-  CONTACT               
+  CONTATO               
 -----------------------------------------*/
 .contact-section {
   background: var(--white-color);
@@ -918,7 +928,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM FORM               
+  FORMULÁRIO PERSONALIZADO              
 -----------------------------------------*/
 .custom-form .form-control,
 .input-group-file {
@@ -1058,7 +1068,7 @@ strong {
 
 
 /*---------------------------------------
-  CONTACT SEARCH & DONATE & SUBCRIBE FORM              
+  CONTATO, BUSCA, DOAÇÃO E FORMULÁRIO DE ASSINATURA              
 -----------------------------------------*/
 .contact-form .form-control {
   background: var(--white-color);
@@ -1204,7 +1214,7 @@ strong {
 
 
 /*---------------------------------------
-  RESPONSIVE STYLES               
+  RESPONSIVIDADE               
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .featured-block {
